@@ -47,7 +47,7 @@ $ export NPM_PUBLISH_TOKEN={YOUR TOKEN}
 
 4. login to npm
 ```
-$ npm login --scope=@OWNER --registry=https://npm.pkg.github.com
+$ npm login --scope=@{YOUR_SCOPE_NAME} --registry=https://npm.pkg.github.com
 ```
 e.g. npm login --scope=@wikichan-ex --registry=https://npm.pkg.github.com
 
