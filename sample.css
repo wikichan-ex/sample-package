@@ -1,0 +1,16 @@
+.sample-div {
+    background-color: aquamarine;
+    font-size: larger;
+    text-align: center;
+}
+
+.sample-icon {
+    content: '';
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    background-image: url("./sample-icon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
