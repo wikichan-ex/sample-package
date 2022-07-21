@@ -1,6 +1,6 @@
 {
-  "name": "@wikichan/sample-package",
-  "version": "1.0.0",
+  "name": "@wikichan-ex/sample-package",
+  "version": "1.0.1",
   "description": "Sample Package",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wikichan-ex/sample-package/issues"
   },
-  "homepage": "https://github.com/wikichan-ex/sample-package#readme"
+  "homepage": "https://github.com/wikichan-ex/sample-package#readme",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
 }
